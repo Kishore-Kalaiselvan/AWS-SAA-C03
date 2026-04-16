@@ -21,7 +21,8 @@ antha statement kulla :
  - action 
  - resources 
 
-IAM password: ithula enna paka porom na 
+### IAM password: 
+ithula enna paka porom na 
 IAM user ku password epdi set panna porom 
 initially company user create panumbothu standard password vechu create panni kuduthiruvanga with a condition, user 1st time login panumbothu antha password ah change pannanum
 password ku conditions kuda namma customize panikalam, like ethana upper case irukanum ethana lower case irukanum nu elame customize panikalam 
@@ -30,13 +31,13 @@ innu 2 enna na :
    i. password expiration (certain period of time la password ah change panite irukanum)
   ii. prevent password re-use (oru time use panna password thirupi use panama pathukanum)
 
-next, MFA
+### next, MFA
 MFA - Multi Factor Authentication 
 simple ah solanuna additional layer of protection to the AWS account 
 even if password leak aagitalum account can be still protected 
 athulaiye neraiya types iruku like google/microsoft authenticator, physical devices um iruku
 
-next little interesting, AWS ah entha entha valiya ellam access panna mudiyum 
+### next, AWS ah entha entha valiya ellam access panna mudiyum 
 main ah 3 
 1. AWS console 
 2. CLI - Command Line Interface 
@@ -49,12 +50,12 @@ but CLI and SDK valiya login pannanuna "access key" nu onnu venum antha access k
 access key consist of key ID and secret key 
 atha yarkitayu share panna kudathu 
 
-next, IAM Roles 
+### next, IAM Roles 
 roles na onnu kedaiyathu unoda behalf la sila work ah roles automatic ah pannum 
 ana antha roles ku nee permission kudukanum unoda behalf la athu enna enna panalam nu nee tha antha role ku permission set pananu apo tha athu velaiya seiyum 
 It is a best practice to use roles 
 
-next the last one : Security Tools 
+### next the last one : Security Tools 
 athula 2 iruku 
 1. Credential report (account level) : enna panum na basic oru root account la neraiya IAM users irupanga so avanga status ela therinjuka intha report use aagum.
 2. Access advisor report (user level) : ithu enna panumna mela iruka antha report vanthu user pathi therinjukalam password vechirukangala ilaya MFA vechirukangala ilaiya account secure ah iruka password crt ah maathunangalaa nu pakalam 
