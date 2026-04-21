@@ -2,20 +2,20 @@
  - EC2 is a region based service it is not available in all region 
  - It is a IaaS (Infrastructure as a Service)
  - It mainly consists in the capability of :
-   • Renting virtual machines (EC2)
-   • Storing data on virtual drives (EBS)
-   • Distributing load across machines (ELB)
-   • Scaling the services using an auto-scaling group (ASG)
+    - Renting virtual machines (EC2)
+    - Storing data on virtual drives (EBS)
+    - Distributing load across machines (ELB)
+    - Scaling the services using an auto-scaling group (ASG)
 
  ### Types of cloud computing 
  In Simple
- IaaS - Infrastructure as a Service 
+   1. IaaS - Infrastructure as a Service 
   - All the component required for building a server/service will be given, the user can customize their server with those component
   for example : all the raw materials for constructing a building will be given, using all those given raw materials you can construct the building for your requirement it is IaaS.
- PaaS - Platform as a Service
+   2. PaaS - Platform as a Service
   - The server/service will be given to you using that server/service you can deploy or host an application or store a data whatever you want to do with the service
   for example : The whole building will be constructed and given to you, with the given building you can use it effectively as a home or a office like that
- SaaS - Software as a Service 
+   3. SaaS - Software as a Service 
   - The whole product will be given to the user, the user can just use the product for their own use cases
   for example : Applications like gmail, drive will be given to users they can use these products for their own uses.
 
