@@ -21,12 +21,12 @@
 
  ### EC2 Configuration:
   - The user can configure 
-      i. OS
-     ii. RAM
-    iii. instance type
-     iv. CPU 
-      v. Firewall: security group 
-     vi. Storage : Network attached (ELB/EFS) and Hardware (EC2 instance store)
+      - OS
+      - RAM
+      - instance type
+      - CPU 
+      - Firewall: security group 
+      - Storage : Network attached (ELB/EFS) and Hardware (EC2 instance store)
 
  ### EC2 User Data
   - It is the user given data or instructions that runs only once that too for the first time of the machine starting after launching the ec2 instance 
