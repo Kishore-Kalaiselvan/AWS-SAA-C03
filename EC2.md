@@ -43,19 +43,19 @@
     - 5 --> generation of the instance class
     - 2xlarge --> size of the instance 
 
-   1. General Purpose 
+   1. General Purpose :
      - Diversity of workload 
      - Balance between Memory, Networking, Compute
      - eg : t2.micro
 
-   2. Compute Optimized 
+   2. Compute Optimized : 
      - Great for compute intense task that needs high performance processors like web servers, gaming servers.
      - eg : c6g, c5
 
-   3. Memory Optimized 
+   3. Memory Optimized :
      - Fast performance to process large data set in the memory (RAM)
      - eg : r5, r4
 
-   4. Storage Optimized 
+   4. Storage Optimized :
      - Great for storing large data sets in the local storage that requires high read and write operations.  
      - eg : d4, d5, i3
