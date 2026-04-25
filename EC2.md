@@ -59,3 +59,21 @@
   4. Storage Optimized :
      - Great for storing large data sets in the local storage that requires high read and write operations.  
      - eg : d4, d5, i3
+
+ ### Security Groups 
+  - Security groups only contain "ALLOW" rules
+  - Security groups are acting as a firewall on EC2 instances
+  - The rules of Security groups can reference by IP or by security group
+  - It regulates : 
+     - inbound/ outbound network
+     - port access
+     - authorised IP ranges 
+  - One security group can be attached to multiple EC2 instances 
+  - All inbound traffic is blocked by default
+  - All outbound traffic is authorised by default
+  - Security groups are attached outside the EC2 instance so the blocked access can't be known to the EC2 instance 
+  - Application not accessible (time out) --> security group issue 
+  - Connection refused error in application --> network issue/ application issue
+  - A security group created in one region cannot be used in another region
+  - A security group created in one VPC cannot be used in another VPC
+  
