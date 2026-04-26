@@ -77,3 +77,48 @@
   - A security group created in one region cannot be used in another region
   - A security group created in one VPC cannot be used in another VPC
   
+ ### EC2 Instances Purchasing Options
+  - On-demand instance
+  - Reserved instance
+  - Spot instance
+  - Savings plan 
+  - Dedicated host 
+  - Dedicated instance
+  - Capacity reservation
+
+  1. On-demand Instance
+    - Rent instantly
+    - Pay per secons/hour 
+    - For short term use
+
+  2. Reserved Instance
+    - Reserve for a period of 1 to 3yrs in advance
+    - It is you commit to use an instance for a particular period of time on the AWS
+    - For long term use
+    - Can be cheaper than on-demand
+    - Eg : I will use this exact server type for 1–3 years (Production Servers)
+
+  3. Spot Instance 
+    - You can get an instance at the spot by announcing the price higher than the current value of the instance 
+    - It is not reserved for you, AWS can take it anytime like when another user gives higher value than your value for the instance 
+
+  4. Saving plan
+    - Same like reserved instance but you commit for the amount spending for a period of time on the AWS
+    - For long term use
+    - Eg : I will spend ₹500 per hour, but I may use different servers
+
+  5. Dedicated Host 
+    - you control the entire physical server
+    - You can have the control of your instance and the hardware that runs the instance 
+    - Eg : Like renting full customized server to run your instance on it  
+
+  6. Dedicated Instance 
+    - You can have full control of the instance but You don’t control or see the physical server
+    - AWS manages the physical server 
+    - Eg : You want isolation (no other customers on same hardware), but don’t care about hardware details 
+
+  7. Capacity Reservation
+    - AWS will always keeps capacity ready for you, reserving a room so it’s always available to you
+    - It is same like On-demand pricing 
+    - Eg : You need 10 servers during a big event → reserve capacity → no risk of “out of stock”.
+    
