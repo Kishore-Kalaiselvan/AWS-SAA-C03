@@ -121,4 +121,18 @@
      - AWS will always keeps capacity ready for you, reserving a room so it’s always available to you
      - It is same like On-demand pricing 
      - Eg : You need 10 servers during a big event → reserve capacity → no risk of “out of stock”.
-    
+ 
+ ### Spot Fleets
+  - Spot Fleets = set of Spot Instances + (optional) On-Demand Instances
+  - A Spot Fleet is just a smart manager that launches multiple Spot Instances for you when you ask for it
+  - Launch pool --> provides different options to the spot fleet 
+     - It is the combination of : 
+        - instance type
+        - availability zone
+        - OS
+  - Spot fleet stops when the required capacity is reached 
+  - Allocation Strategies : This is how spot fleet chooses instance 
+     - Lowest price : chooses the cheap instance
+     - diversified : chooses instance across many pools 
+     - capacityoptimized : picks pools with most available capacity (how many EC2 instances AWS can currently provide from that pool)
+     - price capacity optimized : high capacity + low price (real-world use case)
