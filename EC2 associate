@@ -1,0 +1,26 @@
+### Private vs Public IP (IPv4)
+ - Public IP :
+   - Public IP means the machine can be identified on the internet
+   - Must be unique across the whole web (not two machines can have the same public IP) 
+   - Can be geo-located easily
+
+ - Private IP :
+   - Private IP means the machine can only be identified on a private network only
+   - The IP must be unique across the private network
+   - BUT two different private networks (two companies) can have the same IPs.
+   - Machines connect to internet using a NAT + internet gateway
+   - Only a specified range of IPs can be used as private IP
+
+ - Elastic IP :
+   - When you stop and then start an EC2 instance, it can change its public IP
+   - If you need to have a fixed public IP for your instance, you need an Elastic IP
+   - An Elastic IP is a public IPv4 IP you own as long as you don’t delete it
+   - You can attach it to one instance at a time
+   - You can only have 5 Elastic IP in your account
+
+ - Placement Groups : 
+   - User can control the placement of their EC2 instance using placement strategy 
+   - These strategy are defined using placement group 
+   - When the user creates the placement group they must choose one from :
+      - Cluster Placement Group : Put all servers very close together (like every team member of the team sit on the same table)
+      - 
